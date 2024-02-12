@@ -24,11 +24,11 @@ y_point = -50
 
 for _ in range(10):
     turtle.setposition(x_point, y_point)
+    turtle.hideturtle()
     for _ in range(10):
-        turtle.color(random.choice(color_list))
-        turtle.pendown()
-        turtle.dot()
-        turtle.penup()
+        # turtle.pendown()
+        turtle.dot(10,random.choice(color_list))        # turtle.penup()
+
         turtle.forward(20)
         y_point += 2
 
