@@ -1,8 +1,8 @@
 from turtle import Screen
 import time
-from snake import Snake
-from snake_food import Food
-from snake_scoreboard import ScoreBoard
+from snake_game.snake import Snake
+from snake_game.snake_food import Food
+from snake_game.snake_scoreboard import ScoreBoard
 
 screen = Screen()
 screen.bgcolor("black")
